@@ -719,7 +719,6 @@ void Player::Move()
 		m_animIndex = kIdleAnimIndex;
 	}
 
-
 	VECTOR attackMove = VScale(m_attackDir, 15.0f);
 	m_attackPos = VAdd(m_pos, attackMove);
 }
